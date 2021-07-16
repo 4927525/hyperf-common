@@ -14,6 +14,7 @@ use Hyperf\HttpMessage\Server\Response;
 use Hyperf\HttpServer\Contract\ResponseInterface;
 use Hyperf\HttpServer\Request;
 use Hyperf\Utils\ApplicationContext;
+use Hyperf\Utils\Context;
 use Psr\Http\Message\ServerRequestInterface;
 use Hyperf\Redis\RedisFactory;
 
