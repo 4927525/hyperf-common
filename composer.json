@@ -1,0 +1,36 @@
+{
+  "name": "4927525/hyperf-common",
+  "description": "hyperf公共类",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hzbskak",
+      "email": "hzbskak@gmail.com"
+    }
+  ],
+  "keywords": [
+    "hyperf"
+  ],
+  "require": {
+    "php": ">=7.3",
+    "hyperf/http-message": "^2.0",
+    "hyperf/http-server": "^2.0",
+    "hyperf/config": "^2.0",
+    "hyperf/di": "^2.0",
+    "hyperf/framework": "^2.0",
+    "hyperf/redis": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "extra": {
+  }
+}
